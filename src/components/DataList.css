@@ -1,0 +1,93 @@
+.user-card {
+  min-height: 200px;
+  width: 350px;
+  margin: 20px 15px;
+  color: #f7fff7;
+  background-color: #3483d1;
+  border: none;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 10px 10px 30px #aca6a6;
+}
+
+.card-title {
+  margin-bottom: 15px;
+}
+
+.user-card img {
+  height: auto;
+}
+
+.user-card img:hover {
+  opacity: 0.8;
+  border-color: #1ad5ee;
+  transition: all 0.5s ease-out;
+}
+
+@media screen and (max-width: 768px) {
+  .user-card {
+    height: auto;
+    width: 300px;
+    margin: 10px 15px;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1170px) {
+  .user-card {
+    height: auto;
+    width: 300px;
+    margin: 10px 15px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 991px) {
+  .user-card {
+    height: auto;
+    width: 220px;
+    margin: 10px 15px;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1192px) {
+  .user-card {
+    height: auto;
+    width: 300px;
+    margin: 10px 15px;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 385px) {
+  .user-card {
+    height: auto;
+    width: 250px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+.card:hover {
+  transform: scale(1.01);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
+}
+
+.paginationBttns {
+  width: 80%;
+  height: 40px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+.paginationBttns a {
+  padding: 10px;
+  margin: 8px;
+  border-radius: 5px;
+  border: 1px solid green;
+  color: green;
+  cursor: pointer;
+}
+
+.paginationBttns a:hover {
+  color: white;
+  background-color: green;
+}
+.paginationActive a {
+  color: white;
+  background-color: green;
+}
